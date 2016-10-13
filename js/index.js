@@ -1,5 +1,4 @@
 const password = document.getElementById("password");
-password.focus();
 password.addEventListener("keyup", function(e) {
   TweenLite.set("img", {x: function() {
     return password.value.length * 14.8;
