@@ -1,8 +1,9 @@
 const psw = document.getElementById("psw");
 psw.addEventListener("keyup", function(e) {
+  let pvl = psw.value.length;
   TweenLite.set("img", {x: function() {
-    return psw.value.length * 14.8;
+    return pvl * 14.8;
   }, opacity: function() {
-    return psw.value.length / 10;
+    return pvl / 10;
   }});
 });
