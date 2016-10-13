@@ -21,6 +21,7 @@ input {
   overflow: hidden;
 }
 .ladycajero > img {
+  top: 0;
   height: 55px;
   position: absolute;
   left: -71px;
