@@ -10,9 +10,10 @@ input {
   width: 140px;
   height: 30px;
   font-size: 25px;
+  margin-left: 2px;
 }
 .ladycajero {
-  width: 149px;
+  width: 151px;
   height: 60px;
   display: flex;
   align-items: center;
