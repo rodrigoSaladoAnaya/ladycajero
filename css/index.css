@@ -1,0 +1,38 @@
+body {
+  width: 100vw;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+input {
+  width: 140px;
+  height: 30px;
+  font-size: 25px;
+}
+.ladycajero {
+  width: 149px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.ladycajero > img {
+  height: 55px;
+  width: 71px;
+  position: absolute;
+  left: -71px;
+  border-radius: 3px;
+}
+.form {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  border: 1px solid #d5dee5;
+  border-radius: 3px;
+}
